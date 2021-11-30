@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enjoy Boxing Classes by our Certified Boxing Trainers">
+    <meta name="keywords" content="24/7 Gym, Gym in Delta, Gym near me, Gym, Best Gym, Best gym equipment">
+    <meta name=”robots” content="index, follow">
+    <title>Boxing</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./utility/main.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./boxing.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar-container container container-flex-row container-span-width">
+        <div class="logo-image-container container">
+            <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White" onclick="redirectHomePage()">
+        </div>
+  
+        <div class="page-links-container container container-flex-row">
+          <a href="/" class="inactive-link">Home</a>
+          <a href="/plans.html" class="inactive-link">Plans</a>
+          <a href="/personal-training.html" class="inactive-link">Personal Training</a>
+          <a href="/boxing.html" class="active-link">Boxing</a>
+          <a href="/gallery.html" class="inactive-link">Gallery</a>
+          <a href="/contact.html" class="inactive-link">Contact Us</a>
+          <a href="/faq.html" class="inactive-link">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html">Sign Up</a>
+            </button>
+        </div>
+
+        <div id="expand-nav-btn" class="side-nav-open-btn-container container">
+            <button onclick="expand_side_nav()">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="sidenav-wrapping-container"></div>
+    <div id="sidenav" class="sidenav-container container-flex-column container-span-width">
+        <div class="logo-image-container container container-flex-row">
+            <img src="./assets/images/logo/black_logo.png" alt="Cave Athletics Logo White">
+
+            <div id="collapse-nav-btn" class="side-nav-close-btn-container container">
+                <button onclick="collapse_side_nav()">
+                    <i class="fas fa-times fa-lg"></i>
+                </button>
+            </div>
+        </div>
+  
+        <div class="page-links-container container container-flex-column">
+          <a href="/" class="active-link sub-heading text-shadow">Home</a>
+          <a href="/plans.html" class="inactive-link sub-heading text-shadow">Plans</a>
+          <a href="/personal-training.html" class="inactive-link sub-heading text-shadow">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link sub-heading text-shadow">Boxing</a>
+          <a href="/gallery.html" class="inactive-link sub-heading text-shadow">Gallery</a>
+          <a href="/contact.html" class="inactive-link sub-heading text-shadow">Contact Us</a>
+          <a href="/faq.html" class="inactive-link sub-heading text-shadow">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html" class="text-shadow sub-heading">Sign Up Today</a>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <main>
+        <div class="tag-line-wrapping-container container">
+            <div class="tag-line-container container container-parent container-span-width">
+                <div class="image-container container">
+                    <div class="tag-line container container container-flex-column">
+                        <p class="big-heading-1 primary-color-text">Boxing</p>
+                        <p class="heading">Train Different</p>
+                        <p class="text-sub-heading">*Sign Up today at the Gym!</p>
+                    </div>
+                    <img src="./assets/images/boxing_1.jpg" alt="Personal Training Image">
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-container container container-parent container-span-width">
+            <div class="heading-container container container-center">
+                <p class="heading text-center primary-color-text">Boxing Classes</p>
+                <p class="sub-heading text-center">Dedicated boxing area, accessible to all members</p>
+            </div>
+
+            <div class="price-container container container-parent container-clr-bg-secondary">
+                <div class="heading-container container">
+                    <p class="text-heading">Ready to become a</p>
+                    <p class="text-heading">
+                        <span class="primary-color-text">Figther?</span>
+                    </p>
+                </div>
+                
+                <hr>
+
+                <div class="benefits-container container">
+                    <ul>
+                        <li class="text-sub-heading">
+                            Enjoy boxing classes by our certified boxing trainers
+                        </li>
+                        <li class="text-sub-heading">
+                            Classes every Monday, Wednesday and Friday(6-8pm)
+                        </li>
+                        <li class="text-sub-heading">
+                            Cardio and agility training
+                        </li>
+                        <li class="text-sub-heading">
+                            Body strength training
+                        </li>
+                        <li class="text-sub-heading">
+                            Bag work & Foot work drills
+                        </li>
+                        <li class="text-sub-heading">
+                            Shadow boxing
+                        </li>
+                        <li class="text-sub-heading">
+                            Defensive and offensive drills.
+                        </li>
+                        <li class="text-sub-heading">
+                            <a href="./contact.html">Contact Us</a>
+                            for One on one boxing training *(additional applicable fees)
+                        </li>
+                    </ul>
+                    <button class="primary-btn">
+                        <a href="./contact.html">Contact Us</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright-container container">
+            <hr>
+            <div class="logo-image-container container">
+                <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White">
+            </div>
+            <p class="text-sub-heading">
+                © Cave Athletics Inc. 2020
+            </p>
+            <p class="text-sub-heading">
+                Designed & Developed by
+                <a href="https://www.auroradevelopers.com/" class="inactive-link" target="_blank">Aurora Developers</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <Script></Script>
+    <Script src="./navbar.js"></Script>
+
+</body>
+</html>

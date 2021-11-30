@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get answers your to curious minds and workout like a pro">
+    <meta name="keywords" content="24/7 Gym, Gym in Delta, Gym near me, Gym, Best Gym, Best gym equipment">
+    <meta name=”robots” content="index, follow">
+    <title>FAQs</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./utility/main.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./faq.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar-container container container-flex-row container-span-width">
+        <div class="logo-image-container container">
+            <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White" onclick="redirectHomePage()">
+        </div>
+  
+        <div class="page-links-container container container-flex-row">
+          <a href="/" class="inactive-link">Home</a>
+          <a href="/plans.html" class="inactive-link">Plans</a>
+          <a href="/personal-training.html" class="inactive-link">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link">Boxing</a>
+          <a href="/gallery.html" class="inactive-link">Gallery</a>
+          <a href="/contact.html" class="inactive-link">Contact Us</a>
+          <a href="/faq.html" class="active-link">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html">Sign Up</a>
+            </button>
+        </div>
+
+        <div id="expand-nav-btn" class="side-nav-open-btn-container container">
+            <button onclick="expand_side_nav()">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="sidenav-wrapping-container"></div>
+    <div id="sidenav" class="sidenav-container container-flex-column container-span-width">
+        <div class="logo-image-container container container-flex-row">
+            <img src="./assets/images/logo/black_logo.png" alt="Cave Athletics Logo White">
+
+            <div id="collapse-nav-btn" class="side-nav-close-btn-container container">
+                <button onclick="collapse_side_nav()">
+                    <i class="fas fa-times fa-lg"></i>
+                </button>
+            </div>
+        </div>
+  
+        <div class="page-links-container container container-flex-column">
+          <a href="/" class="active-link sub-heading text-shadow">Home</a>
+          <a href="/plans.html" class="inactive-link sub-heading text-shadow">Plans</a>
+          <a href="/personal-training.html" class="inactive-link sub-heading text-shadow">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link sub-heading text-shadow">Boxing</a>
+          <a href="/gallery.html" class="inactive-link sub-heading text-shadow">Gallery</a>
+          <a href="/contact.html" class="inactive-link sub-heading text-shadow">Contact Us</a>
+          <a href="/faq.html" class="inactive-link sub-heading text-shadow">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html" class="text-shadow sub-heading">Sign Up Today</a>
+            </button>
+        </div>
+    </div>
+
+   <!-- Main -->
+    <main>
+        <div class="faq-wrapping-container container">
+            <div class="faq-container container container-parent container-span-width">
+                <div class="heading-container container container-center">
+                    <p class="heading primary-color-text text-center">Frequently Asked Questions</p>
+                    <p class="sub-heading text-center">Get answers your to curious minds and workout like a pro</p>
+                </div>
+    
+                <div class="questions-container container container-parent container-clr-bg-secondary">
+                    <div class="heading-container container">
+                        <p class="text-heading primary-color-text">COVID19</p>
+                    </div>
+                    
+                    <div class="question-container container">
+                        <div class="question container">
+                            <p class="text-heading">
+                                How will the bi-weekly and maintenance fee payment will be managed?
+                            </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                We are putting all payments on hold beginning Apr 6 until we open again and all the payments that have been charged from Mar 21st until now will be adjusted as a credit to your membership when we open again.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                            <p class="text-heading">
+                                I want to cancel my membership. How can I do that?
+                            </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                All cancellations will take place at the re-opening of the facility. Members will also have an option to get a gym credit for the duration of the closure.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                            <p class="text-heading">
+                                Will I get a refund for all the payments if I want to cancel my membership during the closure period?
+                            </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                Members who want to cancel their memberships during closure will be able to process their cancellation after the reopening of the facility and the payments that were charged during the closure will be adjusted in the mandatory 1 month notice of cancellation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            Why am I getting charged when the gym is closed?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                The facility was originally scheduled to re-open on Apr 1st however due to the ongoing circumstances, all payments are being put on hold and charged payments will be credited as gym credit for the duration of the closure.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            When will the gym re-open?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                Cave Athletics is working with the city of Delta to plan a re-opening date for our delta location. Our team wants to ensure all necessary safety measures and precautions are followed before welcoming all our guests as well as members back into the facility. We request and appreciate your support and patience amid these unprecedented times. We will be posting our opening date online with ample notice once approval from the city has been received.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="primary-btn">
+                        <a href="./contact.html">More Questions? Contact Us</a>
+                    </button>
+                </div>
+    
+                <div class="questions-container container container-parent container-clr-bg-secondary">
+                    <div class="heading-container container">
+                        <p class="text-heading primary-color-text">More FAQs</p>
+                    </div>
+                    
+                    <div class="question-container container">
+                        <div class="question container">
+                            <p class="text-heading">
+                                How can I sign up for a membership?
+                            </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                There are two ways to signup:
+                                <ul>
+                                    <li class="text-sub-heading">
+                                        First way is to sign up online. After signing up online, you can collect your keyfob for 24/7 access from our office anytime during the office hours. <a href="./plans.html" target="_blank">Click here</a> to sign up online.
+                                    </li>
+                                    <li class="text-sub-heading">
+                                        Another way is to sign up in the office during our office hours(24hrs Weekdays. 8am-12pm Weekends).
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                            <p class="text-heading">
+                                How much does a membership costs?
+                            </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                You can find the prices of the memberships on our <a href="./plans.html" target="_blank">membership plans</a> page where we have our full cost and bi-weekly memberships listed or you can <a href="./contact.html" target="_blank">contact us</a> via phone or email.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            How can I sign up to get personal training or boxing training/classes?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                Visit our office during the office hours(24hrs: Weekdays, 8am-12pm: Weekends) where our customer service representative will help you or <a href="./contact.html" target="_blank">contact us</a> to book an appointment to sign up for personal training.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            Will I get a diet plan if I get personal training?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                Yes, diet plan is included in all packages of personal training. Diet guidance and workouts are tailored according to the body types and needs of each client. <a href="./personal-training.html" target="_blank">Click here</a> to know more about personal training.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            How can I cancel my membership?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                All memberships require a signed and management authorzied 30 days notice of cancellation from your next billing cycle done in person at our head office. You can cancel your membership in our office during the office hours(24hrs: Weekends, 8am-12pm: Weekends)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-container container">
+                        <div class="question container">
+                        <p class="text-heading">
+                            Is there any cancellation fees?
+                        </p>
+                        </div>
+                        <div class="answer container">
+                            <p class="text-sub-heading">
+                                No, there's no cancellation fee. At the time of approved cancellation you must pay for the 30 days notice period from your next billing cycle.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="primary-btn">
+                        <a href="./contact.html">More Questions? Contact Us</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright-container container">
+            <hr>
+            <div class="logo-image-container container">
+                <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White">
+            </div>
+            <p class="text-sub-heading">
+                © Cave Athletics Inc. 2020
+            </p>
+            <p class="text-sub-heading">
+                Designed & Developed by
+                <a href="https://www.auroradevelopers.com/" class="inactive-link" target="_blank">Aurora Developers</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <Script></Script>
+    <Script src="./navbar.js"></Script>
+
+</body>
+</html>

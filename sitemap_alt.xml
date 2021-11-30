@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.caveathletics.ca/</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.caveathletics.ca/plans.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.caveathletics.ca/personal-training.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.caveathletics.ca/boxing.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.caveathletics.ca/gallery.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+	<url>
+      <loc>http://www.caveathletics.ca/contact.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>   
+
+   <url>
+      <loc>http://www.caveathletics.ca/faq.html</loc>
+      <lastmod>2021-06-27</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+</urlset> 

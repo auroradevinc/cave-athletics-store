@@ -1,0 +1,64 @@
+/*==================
+Copy Right Container
+==================*/
+.copyright-container {
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto;
+}
+
+.copyright-container hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.copyright-container .logo-image-container,
+.copyright-container p {
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto;
+}
+
+.copyright-container .logo-image-container {
+    width: 10%;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.copyright-container p a{
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: underline;
+}
+
+.copyright-container p a:hover{
+    text-decoration: none;
+}
+
+.copyright-container p a::after{
+    height: 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .copyright-container .logo-image-container {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright-container .logo-image-container {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .copyright-container .logo-image-container {
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .copyright-container .logo-image-container {
+        width: 27%;
+    }
+}

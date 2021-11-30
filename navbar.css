@@ -1,0 +1,211 @@
+/*==============
+Nabar Container
+==============*/
+.navbar-container {
+    position: relative;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+
+    transition: height 400ms ease-in-out;
+}
+
+.navbar-container .logo-image-container {
+    width: 11%;
+}
+
+.navbar-container .page-links-container a {
+    width: max-content;
+}
+
+.navbar-container .page-links-container a,
+.sidenav-container .page-links-container a {
+    font-family: var(--ff-nav);
+    font-weight: var(--ff-nav-semi-bold);
+}
+
+.navbar-container .btn-container button > a,
+.sidenav-container .btn-container button > a {
+    font-family: var(--ff-nav);
+    font-weight: var(--ff-nav-bold);
+}
+
+.navbar-container .side-nav-open-btn-container {
+    position: absolute;
+    right: 0;
+}
+
+.navbar-container .side-nav-open-btn-container,
+.navbar-container .side-nav-close-btn-container {
+    display: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-container .side-nav-open-btn-container button {
+    background-color: transparent;
+    border: none;
+}
+
+@media only screen and (max-width: 1550px) {
+    .navbar-container .btn-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .navbar-container .page-links-container {
+        display: none;
+    }
+    .navbar-container .logo-image-container {
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-container .side-nav-open-btn-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-container .logo-image-container {
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-container .logo-image-container {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar-container .logo-image-container {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .navbar-container .logo-image-container {
+        width: 33%;
+    }
+}
+
+/*===============
+Sidenav Container
+===============*/
+.sidenav-wrapping-container {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+
+    background-color: var(--clr-txt-primary);
+    transition: all 0.5s;
+}
+
+.sidenav-container {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    background-color: var(--clr-txt-secondary);
+    box-shadow: -7px -7px 13px 1px rgb(0 0 0 / 30%);
+    transition: all 0.7s;
+}
+
+.sidenav-container .logo-image-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.55rem;
+    margin-right: 1.55rem;
+}
+
+.sidenav-container .logo-image-container img {
+    width: 20%;
+}
+
+.sidenav-container .side-nav-close-btn-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidenav-container .side-nav-close-btn-container button {
+    border-radius: 0.5rem;
+}
+
+.sidenav-container .page-links-container {
+    justify-content: space-evenly;
+}
+
+.sidenav-container .page-links-container a {
+    width: max-content;
+    color: var(--clr-bg-secondary);
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-bold);
+}
+
+.sidenav-container .page-links-container a,
+.sidenav-container .page-links-container a.sub-heading {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.sidenav-container .btn-container {
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.sidenav-container .btn-container button {
+    width: max-content;
+}
+
+.sidenav-container .btn-container button a {
+    font-family: var(--ff-primary);
+}
+
+@media only screen and (max-width: 1350px) {
+    .sidenav-container .logo-image-container img {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sidenav-container .logo-image-container img {
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sidenav-container .logo-image-container img {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .sidenav-container .logo-image-container img {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .sidenav-container .logo-image-container img {
+        width: 33%;
+    }
+}

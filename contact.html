@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visit us or give us a call. We are open 24/7.">
+    <meta name="keywords" content="24/7 Gym, Gym in Delta, Gym near me, Gym, Best Gym, Best gym equipment">
+    <meta name=”robots” content="index, follow">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./utility/main.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar-container container container-flex-row container-span-width">
+        <div class="logo-image-container container">
+            <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White" onclick="redirectHomePage()">
+        </div>
+  
+        <div class="page-links-container container container-flex-row">
+          <a href="/" class="inactive-link">Home</a>
+          <a href="/plans.html" class="inactive-link">Plans</a>
+          <a href="/personal-training.html" class="inactive-link">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link">Boxing</a>
+          <a href="/gallery.html" class="inactive-link">Gallery</a>
+          <a href="/contact.html" class="active-link">Contact Us</a>
+          <a href="/faq.html" class="inactive-link">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html">Sign Up</a>
+            </button>
+        </div>
+
+        <div id="expand-nav-btn" class="side-nav-open-btn-container container">
+            <button onclick="expand_side_nav()">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="sidenav-wrapping-container"></div>
+    <div id="sidenav" class="sidenav-container container-flex-column container-span-width">
+        <div class="logo-image-container container container-flex-row">
+            <img src="./assets/images/logo/black_logo.png" alt="Cave Athletics Logo White">
+
+            <div id="collapse-nav-btn" class="side-nav-close-btn-container container">
+                <button onclick="collapse_side_nav()">
+                    <i class="fas fa-times fa-lg"></i>
+                </button>
+            </div>
+        </div>
+  
+        <div class="page-links-container container container-flex-column">
+          <a href="/" class="active-link sub-heading text-shadow">Home</a>
+          <a href="/plans.html" class="inactive-link sub-heading text-shadow">Plans</a>
+          <a href="/personal-training.html" class="inactive-link sub-heading text-shadow">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link sub-heading text-shadow">Boxing</a>
+          <a href="/gallery.html" class="inactive-link sub-heading text-shadow">Gallery</a>
+          <a href="/contact.html" class="inactive-link sub-heading text-shadow">Contact Us</a>
+          <a href="/faq.html" class="inactive-link sub-heading text-shadow">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html" class="text-shadow sub-heading">Sign Up Today</a>
+            </button>
+        </div>
+    </div>
+
+   <!-- Main -->
+    <main>
+        <div class="contact-us-wrapping-container container">
+            <div class="contact-us-container container container-parent container-span-width">
+                <div class="heading-container container container-center">
+                    <p class="heading text-center">Contact Us</p>
+                    <p class="sub-heading text-center">Any questions or remarks? Just write us a message!</p>
+                </div>
+
+                <div class="contact-container container container-parent container-flex-row">
+                    <div class="contact-info-container container">
+                        <div class="heading-container container">
+                            <p class="text-heading">Contact Information</p>
+                            <p class="text-sub-heading">Fill up the form and our team will get back to you as soon as possible.</p>
+                        </div>
+
+                        <hr>
+
+                        <div class="info-container container container-flex-column">
+                            <p class="text-sub-heading">
+                                <a href="tel:778-438-2499">
+                                    <i class="fas fa-phone-alt fa-lg"></i>778-438-2499
+                                </a>
+                            </p>
+                            <p class="text-sub-heading">
+                                <a href="mailto:caveathleticsincbc@gmail.com">
+                                    <i class="fas fa-envelope fa-lg"></i>caveathleticsincbc@gmail.com
+                                </a>
+                            </p>
+                            <p class="text-sub-heading">                            
+                                <a href="https://g.page/caveathleticsdelta?share" target="_blank">
+                                    <i class="fas fa-map-marker-alt fa-lg"></i>8889 120 St Delta, BC V4C 6R6
+                                </a>
+                            </p>
+                        </div>
+                        <div class="social-media-container container container-flex-row">
+                            <a href="https://www.facebook.com/caveathleticsdelta" target="_blank">
+                                <i class="fab fa-facebook-square fa-lg"></i>
+                            </a>
+                            <a href="https://www.instagram.com/caveathleticsdelta/" target="_blank">
+                                <i class="fab fa-instagram-square fa-lg"></i>
+                            </a>
+                        </div>
+
+                        <img src="./assets/images/eclipse.svg" alt="">
+                    </div>
+
+                    <form class="contact-form-container container container-flex-column" action="mailto:caveathleticsincbc@gmail.com"
+                    method="POST" enctype="text/plain" name="Contact Cave Athletics">
+                        <div class="name-container container container-flex-row">
+                            <div class="first-name form-field">
+                                <label for="Contact First Name" class="text-sub-heading">First Name</label>
+                                <input type="text" name="Contact First Name" class="text-sub-heading" placeholder="John" required>
+                            </div>                  
+
+                            <div class="last-name form-field">
+                                <label for="Contact Last Name" class="text-sub-heading">Last Name</label>
+                                <input type="text" name="Contact Last Name" class="text-sub-heading" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="phone-info-container container container-flex-row">
+                            <div class="phone-number form-field">
+                                <label for="Contact Phone Number" class="text-sub-heading">Phone</label>
+                                <input type="tel" name="Contact Phone Number" class="text-sub-heading" placeholder="123-456-7890">
+                            </div>                  
+
+                            <div class="email form-field">
+                                <label for="Contact Email" class="text-sub-heading">Email</label>
+                                <input type="email" name="Contact Email" class="text-sub-heading" placeholder="your@email.com">
+                            </div>
+                        </div>
+                        <div class="message-container container form-field">
+                            <label for="Message" class="text-sub-heading">Message</label>
+                            <textarea name="Message" id="message" cols="60" rows="5" class="text-sub-heading" placeholder="Write your message..."></textarea>
+                        </div>
+
+                        <button class="primary-btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright-container container">
+            <hr>
+            <div class="logo-image-container container">
+                <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White">
+            </div>
+            <p class="text-sub-heading">
+                © Cave Athletics Inc. 2020
+            </p>
+            <p class="text-sub-heading">
+                Designed & Developed by
+                <a href="https://www.auroradevelopers.com/" class="inactive-link" target="_blank">Aurora Developers</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <Script></Script>
+    <Script src="./navbar.js"></Script>
+
+</body>
+</html>

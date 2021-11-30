@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="sxgr53rz-kWr8BhhiUSo6igvkqZaVdwkjV13hT8g4FI" />
+    <meta name="google-site-verification" content="i2y8y-N7UCEtUu8TQs43aBZeSVRgyOuadppDE0Oa8GM" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awarded Best Gym in Delta. Experience world class equipment at Cave Athletics.">
+    <meta name="keywords" content="24/7 Gym, Gym in Delta, Gym near me, Gym, Best Gym">
+    <meta name=”robots” content="index, follow">
+    <title>Cave Athletics</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./utility/bootstrap-5.0.1-dist/css/bootstrap_wrapper.css">
+    <link rel="stylesheet" href="./utility/main.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar-container container container-flex-row container-span-width">
+        <div class="logo-image-container container">
+            <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White" onclick="redirectHomePage()">
+        </div>
+  
+        <div class="page-links-container container container-flex-row">
+          <a href="/" class="active-link">Home</a>
+          <a href="/plans.html" class="inactive-link">Plans</a>
+          <a href="/personal-training.html" class="inactive-link">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link">Boxing</a>
+          <a href="/gallery.html" class="inactive-link">Gallery</a>
+          <a href="/contact.html" class="inactive-link">Contact Us</a>
+          <a href="/faq.html" class="inactive-link">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html">Sign Up</a>
+            </button>
+        </div>
+
+        <div id="expand-nav-btn" class="side-nav-open-btn-container container">
+            <button onclick="expand_side_nav()">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="sidenav-wrapping-container"></div>
+    <div id="sidenav" class="sidenav-container container-flex-column container-span-width">
+        <div class="logo-image-container container container-flex-row">
+            <img src="./assets/images/logo/black_logo.png" alt="Cave Athletics Logo White">
+
+            <div id="collapse-nav-btn" class="side-nav-close-btn-container container">
+                <button onclick="collapse_side_nav()">
+                    <i class="fas fa-times fa-lg"></i>
+                </button>
+            </div>
+        </div>
+  
+        <div class="page-links-container container container-flex-column">
+          <a href="/" class="active-link sub-heading text-shadow">Home</a>
+          <a href="/plans.html" class="inactive-link sub-heading text-shadow">Plans</a>
+          <a href="/personal-training.html" class="inactive-link sub-heading text-shadow">Personal Training</a>
+          <a href="/boxing.html" class="inactive-link sub-heading text-shadow">Boxing</a>
+          <a href="/gallery.html" class="inactive-link sub-heading text-shadow">Gallery</a>
+          <a href="/contact.html" class="inactive-link sub-heading text-shadow">Contact Us</a>
+          <a href="/faq.html" class="inactive-link sub-heading text-shadow">FAQs</a>
+        </div>
+
+        <div class="btn-container container">
+            <button class="primary-btn">
+                <a href="./plans.html" class="text-shadow sub-heading">Sign Up Today</a>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <main>
+        <div class="tag-line-wrapping-container container">
+            <div class="tag-line-container container container-parent container-flex-row container-span-width">
+                <div class="tag-line container container-flex-column">
+                    <p class="big-heading-1">Fight for</p>
+                    <p class="big-heading-2 primary-color-text">Fitness</p>
+                    <p class="sub-heading">
+                        Get ready to achieve you body goals. Whether its strength or muscle training. Our professional coaches can help you in your journey to fitness. 
+                    </p>
+                    <div class="btn-container container container-flew-row">
+                        <button class="primary-btn">
+                            <a href="./plans.html">Sign Up</a>
+                        </button>
+                        <button class="secondary-btn">
+                            <a href="./personal-training.html">Personal Training</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="image-container container">
+                    <img src="./assets/images/tag-line-image.jpg" alt="Bodybuilder performing deadlifts">
+                </div>
+            </div>
+        </div>
+
+        <div class="service-view-container container container-parent container-span-width">
+            <div class="heading-container container container-center">
+                <p class="heading text-center primary-color-text">Find what moves you</p>
+                <p class="sub-heading text-center">Try Out wide range of available routines</p>
+            </div>
+
+            <div class="routine-container container container-flex-row">
+                <div class="routine container">
+                    <img src="./assets/images/cardio.jpg" alt="Runner on treadmill">
+                    <p class="text-heading">Cardio</p>
+                    <p class="text-sub-heading">Achieve weight goals through treadmills, cycling and more.</p>
+                </div>
+                <div class="routine container">
+                    <img src="./assets/images/weight-lifting.jpg" alt="Bodybuilder lifting free weights">
+                    <p class="text-heading">Lifting</p>
+                    <p class="text-sub-heading">Gain muscles using free weights & our wide range of machines.</p>
+                </div>
+                <div class="routine container">
+                    <img src="./assets/images/streching.jpg" alt="Woman Stretching">
+                    <p class="text-heading">Stretching</p>
+                    <p class="text-sub-heading">Relax your muscles and recover from workouts in yoga section.</p>
+                </div>
+                <div class="routine container">
+                    <img src="./assets/images/nutrition.jpg" alt="Healthy Salad bowl">
+                    <p class="text-heading">Nutrition</p>
+                    <p class="text-sub-heading">Work with trainers to make personalized nutrition plans.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-promise-wrapping-container container">
+            <div class="results-promise-container container container-parent container-span-width">
+                <div class="heading-container container container-center">
+                    <p class="heading text-center primary-color-text">Results, not just promises</p>
+                    <p class="sub-heading text-center">Our members witness experience like no where</p>
+                </div>
+    
+                <div class="promise-container container container-parent container-flex-row">
+                    <div class="promise container">
+                        <img src="./assets/images/24-hours.png" alt="24/7 Open Sign">
+                        <p class="text-sub-heading text-center">24/7 Open Gym</p>
+                    </div>
+                    <div class="promise container">
+                        <img src="./assets/images/consulting.png" alt="Office consultation">
+                        <p class="text-sub-heading text-center">Consultation</p>
+                    </div>
+                    <div class="promise container">
+                        <img src="./assets/images/weight-lifting.png" alt="Wight lifiting Personal">
+                        <p class="text-sub-heading text-center">Personal Training</p>
+                    </div>
+                    <div class="promise container">
+                        <img src="./assets/images/boxing.png" alt="Boxing Practice">
+                        <p class="text-sub-heading text-center">Boxing</p>
+                    </div>
+                    <div class="promise container">
+                        <img src="./assets/images/plan.png" alt="Nutrition Plans">
+                        <p class="text-sub-heading text-center">Nutrition Support</p>
+                    </div>
+                    <div class="promise container">
+                        <img src="./assets/images/pencil.png" alt="Personlized Plans">
+                        <p class="text-sub-heading text-center">Personalized Plans</p>
+                    </div>
+                </div>
+
+                <button class="primary-btn">
+                    <a href="./plans.html">Start Today</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="review-container container container-parent container-span-width">
+            <p class="heading text-center primary-color-text">Hear what our members have to say...</p>
+            
+            <div class="bootstrap">
+                
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval=7000>    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “Best Gym in North Delta. I have been a member here for 2 months after being a member at another large BC chain gym and let me say this place is no BS. No conctract option, clean, new equipment. The hours are amaing of course (24 hours). The place is clean, the equipment is fantastic for lifters and cardio lovers. I usually go to the gym around 8-9 am or 7-8pm and the gym is never too crowded. I wish they had a hip abduction machine though.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Vickie G-H</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “I m sharing my views about this place to let you all know that this is the best place for work out . Super friendly staff n very hard-working . Love them all . I came here to get rid from depression and my trainer is amazing . She is training me very well . Thank you so much Sapna😍.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Rajvir Phagura</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “I moved from Saskatchewan a year back . Joined the gym exactly one year back and I am so happy at my decision to join this. Easily approachable, very friendly and thorogh professional staff. Great ambience. The equippment is upto mark. They give personal training sessions too. Guide about diet too. I have certain physical limitations so my sessions are planned well according to these. Would recommend it highly.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Navjit Jhand</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “Excellent place to lift off the daily stress. It's a adequate place for lifters with moderate equipment. Highly recommended. In last 3 years, I tried other gym around here too but the Cave Athletics hygiene/standards are extreme- Kuddos to staff. Great work.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Navdeep Singh Chattha</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “Excelente place to workout. Special ergonomic equipment, makes the difference between other usual machines. Spacious place to stretch and a very complete dumbbell set. Definitely, it is an awesome gym to do your best. The costumer service are nice gentle, respectful.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Andrés García Molina</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “I love this location! Great workouts, exceptional and friendly staff and trainers that are great across the board. I love that they know my capabilities and push me harder when I need it.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Josh Ingram</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “Great facility with the nicest, most helpful staff. Has all the right equipment regardless of how advanced you are with your training. Since it is a 24-hr facility, I no longer need to worry about how late I can train. Also has open space to stretch and do some high intensity interval training without weights if needed. Best gym in the Surrey/Delta area, and I've trained at most of them over the past 18 yrs.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Harj Dhaliwal</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “Awesome well equipped gym. It is open 24/7 and that is real convenience for people who works till late. I love working out at cave.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Max Rayan</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review container container-center container-clr-bg-secondary">
+                                <p id="reviewer-text" class="text-sub-heading">
+                                    “My experience at this has been awesome since i joined it. it's never too crowded and they have everything i need with reasonable price of membership.”
+                                </p>
+                                <p id="reviewer-name" class="text-sub-heading">— Simran Kaur</p>
+                
+                                <div class="star-ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sub-heading ratings-source">
+                                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDeryDMtzDM1YLRSNagwNbEwTbFMTTJMMTcwS01MsjKoSEpJMzO2MEszN7M0Mk-zTPTiS04sS1VILMnISS3JTC4GAMGzFQk&q=cave+athletics&rlz=1C5CHFA_enIN917IN917&oq=cave+&aqs=chrome.1.69i57j46i39i175i199j46i175i199j46i131i175i199i433j0i433j69i60l3.2136j0j7&sourceid=chrome&ie=UTF-8#lrd=0x5485d9eb1d706eab:0xbdf6386f76927f9a,1,,," target="_blank">
+                                        Google Reviews
+                                    </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="awards-recognition-wrapping-container container">
+            <div class="awards-recognition-container container container-parent container-span-width">
+                <p class="heading text-center primary-color-text">Awards & Recognition</p>
+    
+                <div class="awards-container container container-parent container-flex-row">
+                    <div class="award container container-flex-row">
+                        <img src="./assets/images/award_1.png" alt="Award#1">
+                        <div class="award-description">
+                            <p class="text-sub-heading">
+                                The Quality Business Awards recognizes businesses that achieve an average quality score of 95% or greater over the previous 12 months. To learn more about our selection criteria, please click here. The winner for the category of The Best Gym in Delta can be seen below. From the whole team, we would like to congratulate the winner on your outstanding results.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="award container container-flex-row">
+                        <img src="./assets/images/award_2.png" alt="Award#2">
+                        <div class="award-description">
+                            <p class="text-sub-heading">
+                                We have awarded Cave Athletics Inc as The Best Gym in Delta for 2020. An overall quality score exceeding 95% was achieved, making them the top ranked in Delta.
+                            </p>
+                            <div class="star-ratings">
+                                <p class="text-sub-heading">Satisfaction</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="star-ratings">
+                                <p class="text-sub-heading">Service</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="star-ratings">
+                                <p class="text-sub-heading">Reputation</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>   
+                            <div class="star-ratings">
+                                <p class="text-sub-heading">Quality</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sign-up-wrapping-container container">
+            <div class="sign-up-container container container-flex-row container-span-width">
+                <div class="sign-up-text container container-parent">
+                    <p class="big-heading-1">Ready to get started?</p>
+                    <p class="heading">Find out which plan is best for you</p>
+                </div>
+                <button class="secondary-btn">
+                    <a href="./plans.html">Sign Up Now</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="safety-container container container-parent container-span-width">
+            <p class="heading text-center">Learn how we are ensuring <span class="primary-color-text">safety</span> during COVID19</p>
+            <div class="safety-measures container container-parent container-clr-bg-secondary">
+                <ul>
+                    <li class="text-sub-heading">One staff member will be doing thermal screening at the front door.</li> 
+                    <li class="text-sub-heading">Everyone will be required to maintain social distancing between themselves and others (inside or waiting outside).</li>
+                    <li class="text-sub-heading">Number of people allowed in the gym at a time is limited to 30.</li>
+                    <li class="text-sub-heading">All equipment and machines will be disinfected by staff every 30 minutes.</li>
+                    <li class="text-sub-heading">We have increased the number of disinfectant stations for our members and all members are also required to clean the machines/equipment after each use.</li>
+                    <li class="text-sub-heading">Some of the treadmills will be powered off to maintain social distancing.</li>
+                    <li class="text-sub-heading">All machines have been re-arranged in the facility to maintain social distancing.</li>
+                    <li class="text-sub-heading">As per Vancouver Fraser Health guideline the water dispenser has been removed.</li>
+                    <li class="text-sub-heading">All members are encouraged to bring their own water bottle (with water in it ofcourse 😎).</li>
+                    <li class="text-sub-heading">Seniors(above age of 50) are encouraged to use the facility between 7am - 12pm.</li>
+                    <li class="text-sub-heading">If you are planning to bring kids with you then you will need to make advance arrangements on the phone with our Customer Service Representative.</li>
+                    <li class="text-sub-heading">Anyone with symptoms of COVID-19(flu, fever, cough) will not be permitted to enter the facility.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright-container container">
+            <hr>
+            <div class="logo-image-container container">
+                <img src="./assets/images/logo/white_logo.png" alt="Cave Athletics Logo White">
+            </div>
+            <p class="text-sub-heading">
+                © Cave Athletics Inc. 2020
+            </p>
+            <p class="text-sub-heading">
+                Designed & Developed by
+                <a href="https://www.auroradevelopers.com/" class="inactive-link" target="_blank">Aurora Developers</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <Script></Script>
+    <Script src="./navbar.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>

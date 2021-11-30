@@ -1,0 +1,24 @@
+/*============
+Plan Container
+============*/
+.plans-container .heading-container .sub-heading{
+    margin-top: 0;
+}
+
+.plans-container .member-signup-container img {
+    width: 70%;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 25px -7px var(--clr-txt-secondary);
+}
+
+/*===============
+Gym Master iFrame
+===============*/
+#wrap {
+    color: tomato;
+}
+
+#wrap .process-row .process-step button.btn {
+    color: teal !important;
+}
