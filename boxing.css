@@ -203,6 +203,10 @@ Pricing Container
     margin-right: auto;
 }
 
+.pricing-container .price-container .primary-btn a {
+    color: var(--clr-txt-secondary);
+}
+
 @media only screen and (max-width: 1500px) {   
     .pricing-container .price-container {
         width: 70%;

@@ -29,6 +29,7 @@ Nabar Container
 .navbar-container .page-links-container a,
 .navbar-container .btn-container a,
 .sidenav-container .page-links-container a {
+    color: var(--clr-txt-secondary);
     font-family: var(--ff-nav);
     font-weight: var(--ff-nav-semi-bold);
 }
