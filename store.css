@@ -1,3 +1,14 @@
+nav #expand-nav-btn button {
+    background-color: var(--clr-bg-primary) !important;
+    
+    border-radius: 0.7rem !important;
+    border: 2px solid var(--clr-bg-primary) !important;
+}
+
+#sidenav {
+    z-index: 2 !important;
+}
+
 main {
     font-family: var(--ff-secondary) !important;
     transition: all 230ms ease-in-out !important;
@@ -58,6 +69,7 @@ button:hover {
 
 .grid-product__label .ec-label {
     border-radius: 0.3rem 0 0 0.3rem !important;
+    z-index: 1 !important;
 }
 
 .grid-product__label .ec-label .label__text,
