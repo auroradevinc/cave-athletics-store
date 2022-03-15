@@ -114,7 +114,31 @@ Tag Line Container
     }
  }
 
-/*===============
+/*================
+Carousel Container
+================*/
+.carousel-container > div {
+    /* padding-left: 0.3em;
+    padding-right: 0.3em; */
+}
+
+.carousel-container div.image {
+    border-radius: 0.7rem;
+    /* box-shadow: 7px 7px 7px 1px rgba(255, 255, 255, 0.15); */
+}
+
+.carousel-container a.uk-position-center-left, 
+.carousel-container a.uk-position-center-right {
+    border-radius: 0.7rem;
+    background-color: rgba(0, 0, 0, 0.30);
+} 
+
+.carousel-container .uk-slider-nav a {
+    padding: 0;
+    margin: 0;
+}
+
+ /*===============
 Pricing Container
 ===============*/
 .pricing-container .heading-container .sub-heading {
