@@ -117,6 +117,11 @@ Tag Line Container
 /*================
 Carousel Container
 ================*/
+.carousel-container h5 {
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-secondary-regular);
+}
+
 .carousel-container > div {
     /* padding-left: 0.3em;
     padding-right: 0.3em; */
@@ -127,10 +132,14 @@ Carousel Container
     /* box-shadow: 7px 7px 7px 1px rgba(255, 255, 255, 0.15); */
 }
 
+.carousel-container div.image.pr__image__cover {
+    filter: grayscale(0%);
+}
+
 .carousel-container a.uk-position-center-left, 
 .carousel-container a.uk-position-center-right {
     border-radius: 0.7rem;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(255, 0, 0, 0.3);
 } 
 
 .carousel-container .uk-slider-nav a {
