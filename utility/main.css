@@ -336,7 +336,7 @@ hr {
 
 @media only screen and (max-width: 1200px) {
     .container-span-width {
-        width: min(85%, 100rem);
+        width: min(80%, 100rem);
     }
 }
 

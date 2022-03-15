@@ -22,7 +22,12 @@ Nabar Container
     width: max-content;
 }
 
+.navbar-container .btn-container {
+    padding: 0;
+}
+
 .navbar-container .page-links-container a,
+.navbar-container .btn-container a,
 .sidenav-container .page-links-container a {
     font-family: var(--ff-nav);
     font-weight: var(--ff-nav-semi-bold);
@@ -54,8 +59,19 @@ Nabar Container
 }
 
 @media only screen and (max-width: 1550px) {
-    .navbar-container .btn-container {
-        display: none;
+    .navbar-container .btn-container button {
+        padding: 0.2em;
+    }
+    .navbar-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-container > .container {
+        margin: 0.3rem;
+        padding: 0.3em
+    }
+    .navbar-container .page-links-container a {
+        margin: 0.5rem 0.7rem;
     }
 }
 
@@ -70,6 +86,9 @@ Nabar Container
     }
     .navbar-container .side-nav-open-btn-container {
         display: block;
+    }
+    .navbar-container .btn-container {
+        display: none;
     }
 }
 
@@ -129,6 +148,7 @@ Sidenav Container
 }
 
 .sidenav-container .logo-image-container {
+    width: 70%;
     justify-content: space-between;
     align-items: center;
     margin-left: 1.55rem;
@@ -184,9 +204,17 @@ Sidenav Container
     .sidenav-container .logo-image-container img {
         width: 15%;
     }
+
+    .sidenav-container .logo-image-container {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    .sidenav-container .logo-image-container {
+        width: 70%;
+    }
+
     .sidenav-container .logo-image-container img {
         width: 17%;
     }
