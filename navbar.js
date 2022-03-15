@@ -7,6 +7,11 @@ let expand_side_nav = () => {
     sidenav_wrapper.style.transition = "all 0.5s";
     sidenav.style.width = "90%";
     sidenav.style.transition = "all 0.7s";
+
+    // Disable scroll when sidenav is open
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
 }
 
 // Side Nav Controller
@@ -18,6 +23,9 @@ let collapse_side_nav = () => {
     sidenav_wrapper.style.transition = "all 0.7s";
     sidenav.style.width = "0%";
     sidenav.style.transition = "all 0.5s";
+
+    // Enable scrolling again when sidenav is closed
+    window.onscroll=function(){};
 }
 
 // Redirect Image Click to home page

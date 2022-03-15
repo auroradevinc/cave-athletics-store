@@ -202,21 +202,21 @@ Sidenav Container
 
 @media only screen and (max-width: 1350px) {
     .sidenav-container .logo-image-container img {
-        width: 15%;
+        width: 13%;
     }
 
     .sidenav-container .logo-image-container {
-        width: 60%;
+        width: 83%;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .sidenav-container .logo-image-container {
-        width: 70%;
+        width: 87%;
     }
 
     .sidenav-container .logo-image-container img {
-        width: 17%;
+        width: 15%;
     }
 }
 
