@@ -147,5 +147,5 @@ button:hover {
 /* Awaiting payment and Awaiting processing on customer account page now hidden */
 .ec-confirmation__status.ec-confirmation__status--awaiting-payment,
 .ec-confirmation__status.ec-confirmation__status--awaiting-processing {
-    display: none;
+    display: none !important;
 }
