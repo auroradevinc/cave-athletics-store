@@ -14,6 +14,11 @@ main {
     transition: all 230ms ease-in-out !important;
 }
 
+.ec-page-title__featured-products,
+.ec-page-title__featured-products ~ .grid__wrap {
+    display: none;
+}
+
 .ec-store__content-wrapper {
     max-width: none !important;
 }
